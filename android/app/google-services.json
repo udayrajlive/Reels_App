@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "251990852428",
+    "project_id": "inshot-clone",
+    "storage_bucket": "inshot-clone.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:251990852428:android:d246976e8291b5f7a205e9",
+        "android_client_info": {
+          "package_name": "com.example.cloneapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "251990852428-pjv7b0nn96jp09kted7q9s4mk191mfnd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtKsdqB0yI2KYJ8mMIRSSL6pRdReOgWj4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "251990852428-pjv7b0nn96jp09kted7q9s4mk191mfnd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
