@@ -91,7 +91,7 @@ class CommentScreen extends StatelessWidget {
                         ),
                         focusedBorder: UnderlineInputBorder(
                           borderSide: BorderSide(
-                            color: Colors.red,
+                            // color: Colors.red,
                           ),
                         ),
                       ),
