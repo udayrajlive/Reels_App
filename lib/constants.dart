@@ -1,5 +1,6 @@
 
 import 'package:cloneapp/views/screens/add_videoscreens.dart';
+import 'package:cloneapp/views/screens/search_screen.dart';
 import 'package:cloneapp/views/screens/video_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
@@ -12,12 +13,7 @@ import 'controllers/auth_controller.dart';
 //screens
 List pages = [
   VideoScreen(),
-  Text('SearchScreen',
-    style: TextStyle(
-      fontSize: 40,
-      fontFamily: 'WorkSans',
-      fontWeight: FontWeight.w400,
-    ),),
+   SearchScreen(),
   const AddVideoScreen(),
   Text('MessageScreen',
     style: TextStyle(
