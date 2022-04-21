@@ -3,14 +3,12 @@
 A new Flutter project.
 
 ## Getting Started
+1-It is a clone app which is developed using Flutter And For database i have used firebase 
+  for the state managment I have use GetX package .
+2-This app features are-
+  -Reels scroll page where user can upload the users reels 
+  -messaging to other users
+  -profile page 
+  - search panel 
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
