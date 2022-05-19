@@ -5,7 +5,7 @@
 
    <application
         android:usesCleartextTraffic="true"
-        android:label="cloneapp"
+        android:label="Reelpro"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

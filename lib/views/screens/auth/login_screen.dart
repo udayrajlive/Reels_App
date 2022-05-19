@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:cloneapp/views/widgets/text_input_field.dart';
 import 'package:simple_gradient_text/simple_gradient_text.dart';
 
+import 'signup_scree.dart';
+
 class LoginScreen extends StatelessWidget {
   LoginScreen({Key? key}) : super(key: key);
   final TextEditingController _emailController = TextEditingController();
@@ -109,11 +111,11 @@ class LoginScreen extends StatelessWidget {
                     ),
                   ),
                   InkWell(
-                    onTap: (){
-                      print('register user');
-                    },
+                    onTap: ()=> Navigator.of(context).push(MaterialPageRoute(
+                      builder: (context)=> Signupscreen(),
+                    ),),
                     child: Text(
-                      'Login',
+                      'Register',
                       style: TextStyle(
                         fontSize: 20,
                         fontFamily: 'WorkSans',

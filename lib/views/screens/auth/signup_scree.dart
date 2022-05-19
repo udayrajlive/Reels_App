@@ -1,3 +1,4 @@
+import 'package:cloneapp/views/screens/auth/login_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:cloneapp/views/widgets/text_input_field.dart';
 import 'package:simple_gradient_text/simple_gradient_text.dart';
@@ -16,7 +17,9 @@ class Signupscreen extends StatelessWidget {
       body: Container(
         alignment: Alignment.center,
         child:
-        Column(mainAxisAlignment: MainAxisAlignment.center, children: [
+        Column(mainAxisAlignment: MainAxisAlignment.center
+
+            , children: [
           GradientText(
           'InShOt Clone',
           style: const TextStyle(
@@ -160,9 +163,9 @@ class Signupscreen extends StatelessWidget {
     ),
     ),
     InkWell(
-    onTap: () {
-    print('login user');
-    },
+    onTap: () => Navigator.of(context).push(MaterialPageRoute(
+      builder: (context)=> LoginScreen(),
+    ),),
     child: Text(
     'Login',
     style: TextStyle(

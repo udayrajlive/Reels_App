@@ -1,5 +1,6 @@
 
 import 'package:cloneapp/views/screens/add_videoscreens.dart';
+import 'package:cloneapp/views/screens/profile_screen.dart';
 import 'package:cloneapp/views/screens/search_screen.dart';
 import 'package:cloneapp/views/screens/video_screen.dart';
 import 'package:flutter/material.dart';
@@ -21,12 +22,7 @@ List pages = [
       fontFamily: 'WorkSans',
       fontWeight: FontWeight.w400,
     ),),
-  Text('ProfileScreen',
-    style: TextStyle(
-      fontSize: 40,
-      fontFamily: 'WorkSans',
-      fontWeight: FontWeight.w400,
-    ),),
+  ProfileScreen(uid: authController.user.uid),
 
 ];
 
