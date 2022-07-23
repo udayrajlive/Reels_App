@@ -4,6 +4,7 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:get/get.dart';
 import '../../controllers/ProfileController.dart';
 
+
 class ProfileScreen extends StatefulWidget {
   final String uid;
 
@@ -40,8 +41,11 @@ class _ProfileScreenState extends State<ProfileScreen> {
           return Scaffold(
               appBar: AppBar(
                   backgroundColor: Colors.black12,
-                  leading: const Icon(
-                    Icons.person_add_alt_1_outlined,
+                  leading: InkWell(
+                    child: Icon(
+
+                      Icons.person_add_alt_1_outlined,
+                    ),
                   ),
                   title: Center(
                       child: Text(controller.user['name'],
